@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude Julius Form</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            background: rgba( 159, 148, 148, 0.5 );
+            backdrop-filter: blur( 3px );
+            -webkit-backdrop-filter: blur( 3px );
+            background-image: url(http://picsum.photos/1920);
+            background-position: center;
+            background-size: cover;
+            
+        }
+        form{
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    align:center;
+}
+
+    </style>
+    <form
+  action="https://formspree.io/f/xzbywdjz"
+  method="POST"
+>
+  <input type="fname" name="First_name" placeholder="First name">
+</label><br><br>
+  <label>
+    <input type="text" name="last_name" placeholder="Last name">
+  </label><br><br>
+  <label>
+    <input type="email" name="email" placeholder="Your email">
+  </label><br><br>
+    <input type="tel" name="Phone_number"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone number">
+  </label><br><br>
+    <textarea name="message" placeholder="Your message"></textarea>
+  </label><br><br>
+  <!-- your other form fields go here -->
+  <button type="submit">Submit</button><br>
+  <button type="reset">Reset</button>
+</form>
+</body>
+</html>
