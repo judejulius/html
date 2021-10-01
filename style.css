@@ -6,10 +6,12 @@
 }
 li{
     display: inline-block;
+    font-family: Verdana;
 }
 ul{
     background-color: grey;
     padding: 20px;
+    overflow: hidden;
 }
 a{
     padding: 20px;
@@ -22,6 +24,10 @@ a:hover{
     color: black;
 }
 /* contact form */
+h1{
+    font-size: 50px;
+    font-family;
+}
 
         *{
             margin: 0;
@@ -51,6 +57,9 @@ a:hover{
 [placeholder]:hover{
     color:grey;
 }
-div{
+/* for the map */
+.position{
     margin-left: 19%;
+    margin-right: 19%;
+    border: 1px solid black;
 }
