@@ -1,4 +1,56 @@
-form{
-    margin-left: 25px;
+/* Navigation bar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline-block;
+}
+ul{
+    background-color: grey;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+}
+a:hover{
+    color: black;
+}
+/* contact form */
 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body{
+            display: grid;
+            
+            background-image: url(http://picsum.photos/1920);
+            background-position: center;
+            background-size: cover; 
+        }
+        form{
+            margin:50px 0px; padding:0px;
+            text-align:center;
+            align-self:center;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color: grey;
+            padding:10%;
+            background: rgba(204, 194, 194, 0.5);
+            backdrop-filter: blur( 3px );
+            -webkit-backdrop-filter: blur( 3px );
+            border-radius: 10px;
+}
+[placeholder]:hover{
+    color:grey;
 }
