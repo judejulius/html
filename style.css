@@ -10,12 +10,10 @@ li{
 ul{
     background-color: grey;
     padding: 20px;
-    left: 0;
-    right: 0;
-    position: fixed;
 }
 a{
     padding: 20px;
+    margin: 0;
     color: white;
     text-decoration: none;
     font-family: serif;
@@ -33,7 +31,6 @@ a:hover{
         }
         body{
             display: grid;
-            
             background-image: url(http://picsum.photos/1920);
             background-position: center;
             background-size: cover; 
