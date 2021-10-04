@@ -65,7 +65,6 @@ form {
   color: rgb(13, 83, 189);
 }
 h1 {
-    /* display: flex; */
   text-align: center;
   padding: 70px;
   margin: 0;
@@ -78,7 +77,10 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 70px;
 }
-/* about pagei */
+strong{
+  color: black;
+}
+/* about page*/
 .about-header{
     margin: 20px;
 }
@@ -95,4 +97,13 @@ img{
 .about-para{
     border: 12px solid rgb(0, 0, 0);
     border-radius: 12px;
+}
+table{
+  margin-left: 25%;
+}
+th{
+  height: 20%;
+}
+.youtube{
+  margin-left: 25%;
 }
