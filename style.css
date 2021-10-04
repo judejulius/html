@@ -1,65 +1,98 @@
 /* Navigation bar */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
-li{
-    display: inline-block;
-    font-family: Verdana;
+li {
+  display: inline-block;
+  font-family: Verdana;
 }
-ul{
-    background-color: grey;
-    padding: 20px;
-    overflow: hidden;
+ul {
+  box-shadow: darkgrey;
+  background-color: rgb(56, 49, 49);
+  padding: 20px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-a{
-    padding: 20px;
-    margin: 0;
-    color: white;
-    text-decoration: none;
-    font-family: serif;
+a {
+  padding: 20px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  font-family: serif;
 }
-a:hover{
-    color: black;
+a:hover {
+  color: black;
 }
 /* contact form */
-h1{
-    font-size: 50px;
-    font-family;
+.contact {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body {
+  background-image: url(https://picsum.photos/1920);
+  background-position: center;
+  background-size: cover;
+}
+form {
+  margin: 50px 0px;
+  padding: 0px;
+  text-align: center;
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  background-color: grey;
+  padding: 5%;
+  background: rgba(204, 194, 194, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+}
+[placeholder]:hover {
+  color: grey;
+}
+/* Home page */
+.bigheader {
+  color: rgb(182, 164, 163);
+  font-family: serif;
+  font-weight: 100;
+  font-size: 8em;
+}
+.bigheader:hover {
+  color: rgb(13, 83, 189);
+}
+h1 {
+    /* display: flex; */
+  text-align: center;
+  padding: 70px;
+  margin: 0;
+}
+p {
+    color: rgb(240, 8, 8);
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 70px;
+}
+/* about pagei */
+.about-header{
+    margin: 20px;
+}
+.about-header:hover{
+    color: darkgray;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-
-        }
-        body{
-            display: grid;
-            background-image: url(http://picsum.photos/1920);
-            background-position: center;
-            background-size: cover; 
-        }
-        form{
-            margin:50px 0px; padding:0px;
-            text-align:center;
-            align-self:center;
-            margin-left: 30%;
-            margin-right: 30%;
-            background-color: grey;
-            padding:10%;
-            background: rgba(204, 194, 194, 0.5);
-            backdrop-filter: blur( 3px );
-            -webkit-backdrop-filter: blur( 3px );
-            border-radius: 10px;
-}
-[placeholder]:hover{
-    color:grey;
-}
-/* for the map */
-.position{
-    margin-left: 19%;
-    margin-right: 19%;
-    border: 1px solid black;
+.about-para{
+    border: 12px solid rgb(0, 0, 0);
+    border-radius: 12px;
 }
