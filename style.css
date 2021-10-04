@@ -85,8 +85,9 @@ strong{
 }
 /* about page*/
 .about-header{
-    margin: 20px;
+    font-weight: 500;
     font-size: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .about-header:hover{
     color: darkgray;
