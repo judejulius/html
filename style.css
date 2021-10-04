@@ -80,6 +80,9 @@ p {
 strong{
   color: black;
 }
+.home-page-img{
+  border-radius: 12px;
+}
 /* about page*/
 .about-header{
     margin: 20px;
