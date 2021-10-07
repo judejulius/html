@@ -67,6 +67,7 @@ button{
 }
 /* Home page */
 .bigheader {
+  text-align: center;
   color: rgb(182, 164, 163);
   font-family: serif;
   font-weight: 100;
