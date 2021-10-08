@@ -8,7 +8,7 @@ li {
   font-family: Verdana;
 }
 ul {
-  text-align: center;
+  text-align: left;
   box-shadow: darkgrey;
   background-color: rgb(56, 49, 49);
   padding: 20px;
@@ -28,9 +28,15 @@ a:hover {
   color: black;
 }
 /* contact form */
+h1{
+  text-align: center;
+}
 .contact {
   font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.contact:hover{
+  color
 }
 body {
   background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
@@ -101,12 +107,12 @@ strong{
   color: black;
 }
 .home-page-img{
+      
   border-radius: 12px;
 }
 /* about page*/
 .about-header{
-  text-align: center;
-  margin-right: 100px;
+
     font-weight: 500;
     font-size: 5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,13 +130,4 @@ img{
 .about-para{
     border: 12px solid rgb(0, 0, 0);
     border-radius: 12px;
-}
-table{
-  margin-left: 19%;
-}
-th{
-  height: 20%;
-}
-.youtube{
-  margin-left: 25%;
 }

@@ -9,7 +9,7 @@
     font-family: Verdana;
   }
   ul {
-    text-align: center;
+    text-align: left;
     box-shadow: darkgrey;
     background-color: rgb(56, 49, 49);
     padding: 20px;
@@ -27,7 +27,7 @@
   a:hover {
     color: black;
   }
-  /* Testimonial */
+  /* Testimonial  */
 body {
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
     text-align: center;
