@@ -4,6 +4,8 @@
   padding: 0;
 }
 li {
+  align-items: baseline;
+  padding:0 20px 10px 10px;
   display: inline-block;
   font-family: Verdana;
 }
@@ -26,6 +28,16 @@ a {
 }
 a:hover {
   color: black;
+}
+.heading-nav{
+  font-weight: 100;
+  font-size: 50px;
+  color: #00caa6;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.heading-nav:hover{
+  color: lightpink;
 }
 /* contact form */
 h1{
@@ -87,12 +99,8 @@ h1 {
   padding: 20px;
   margin: 1em 0 0.5em 50px;
   font-weight: 100;
-  text-transform: uppercase;
   color: #00caa6;
-  font-style: italic;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 58px;
-  line-height: 54px;
   text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 p {
