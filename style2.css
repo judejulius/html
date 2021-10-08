@@ -114,8 +114,10 @@ strong {
   font-size: 20px;
 }
 .heading {
-  padding-top: 80px;
-  margin: 30px;
+  padding: 0;
+  margin-right:450px;
+  margin-left: 450px;
+  margin-top: 100px;
   color: white;
 }
 .heading::first-letter {

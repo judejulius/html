@@ -7,7 +7,7 @@ li {
   align-items: baseline;
   padding:0 20px 10px 10px;
   display: inline-block;
-  font-family: Verdana;
+  font-family: arial;
 }
 ul {
   font-size: 20px;
@@ -124,6 +124,9 @@ strong {
 }
 /* about page*/
 .about-header {
+  padding:0;
+  margin-left: 450px;
+  margin-right: 450px;
   font-weight: 500;
   font-size: 5em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
