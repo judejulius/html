@@ -21,7 +21,7 @@ ul {
   width: 95%;
 }
 a {
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   color: white;
   text-decoration: none;
@@ -56,6 +56,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 form {
   margin: 50px 0px;
@@ -76,7 +77,7 @@ form {
   color: grey;
 }
 button {
-  background-color: #4caf50;
+  background-color: #8d978d;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -84,6 +85,9 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+button:hover{
+  color: aqua;
 }
 /* Home page */
 .bigheader {
@@ -117,10 +121,13 @@ strong {
   color: black;
 }
 .home-page-img {
-  border-radius: 12px;
+  border-radius: 50%  ;
 }
 .form {
   display: fixed;
+}
+.p{
+  color: white;
 }
 /* about page*/
 .about-header {
@@ -146,3 +153,4 @@ img {
   border: 12px solid rgb(0, 0, 0);
   border-radius: 12px;
 }
+/* timeline */
