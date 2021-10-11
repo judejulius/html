@@ -1,5 +1,8 @@
 /* Navigation bar */
-
+* {
+    margin: 0;
+    padding: 0;
+  }
   li {
     align-items: baseline;
     padding:0 20px 10px 10px;
@@ -18,7 +21,7 @@
     width: 95%;
   }
   a {
-    padding: 0px;
+    padding: 10px;
     margin: 0;
     color: white;
     text-decoration: none;
@@ -37,10 +40,7 @@
   .heading-nav:hover{
     color: lightpink;
   }
-* {
-    box-sizing: border-box;
-  }
-  /* timeline */
+  /* Timeline */
   body {
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
     background-position: center;
@@ -70,12 +70,22 @@
   
   /* Container around content */
   .container {
+      box-sizing: border-box;
       margin: 140px 0 0 0;
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
   }
+    /* width: 50%;
+    background: red;
+    animation: mymove 5s infinite;
+      }
+      @keyframes mymove {
+          from {background-color: red;}
+          to {background-color: blue;}
+        } */
+
   
   /* The circles on the timeline */
   .container::after {
@@ -137,10 +147,25 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
     position: relative;
     border-radius: 6px;
-  }
+    background: red;
+    animation: mymove 5s infinite;
+      }
+      @keyframes mymove {
+          0%{
+              background-color: turquoise;
+          }
+          33%{
+              background-color: violet;
+          }
+          66%{
+              background-color: yellow;
+          }
+          100%{
+              background-color: yellowgreen;
+          }
+        }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
@@ -155,7 +180,6 @@
     padding-left: 70px;
     padding-right: 25px;
     }
-    
     /* Make sure that all arrows are pointing leftwards */
     .container::before {
     left: 60px;
