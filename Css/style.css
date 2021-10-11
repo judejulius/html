@@ -45,6 +45,11 @@ a:hover {
   color: lightpink;
 }
 /* contact form */
+.contact-head{
+  font-size: 80px;
+  margin-right: 40px;
+
+}
 h1{
   text-align: center;
 }
@@ -63,13 +68,11 @@ body {
   text-align: center;
 }
 form {
-  margin: 50px 0px;
-  padding: 0px;
   text-align: center;
-  align-self: center;
+  margin-top: 60px;
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: 10%;
+  margin-bottom: 20px;
   background-color: grey;
   padding: 5%;
   background: rgba(204, 194, 194, 0.5);
@@ -105,8 +108,8 @@ button:hover{
   color: rgb(13, 83, 189);
 }
 .img-header{
-  padding: 20px;
-  margin: 1em 0 0.5em 50px;
+  text-align: center;
+  font-size: 60px;
   font-weight: 100;
   color: #00caa6;
   font-family: "Josefin Sans", sans-serif;
@@ -134,7 +137,9 @@ strong {
   color: black;
 }
 .home-page-img {
-  border-radius: 50%  ;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 .form {
   display: fixed;
@@ -166,6 +171,9 @@ img {
   border: 12px solid rgb(0, 0, 0);
   border-radius: 12px;
 }
+.about{
+  font-size: 80px;
+}
 /* timeline */
 
   /* The actual timeline (the vertical ruler) */
@@ -191,7 +199,8 @@ img {
   /* Container around content */
   .container {
       box-sizing: border-box;
-      margin: 140px 0 0 0;
+      margin-top: 90px;
+      margin-bottom: 50px;
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -259,7 +268,7 @@ img {
     padding: 20px 30px;
     position: relative;
     border-radius: 25px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
     background: red;
     animation: mymove 5s infinite;
       }
@@ -309,4 +318,13 @@ img {
     left: 0%;
     }
   }
-  
+  /* footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
