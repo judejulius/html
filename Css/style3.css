@@ -154,16 +154,16 @@
       }
       @keyframes mymove {
           0%{
-              background-color: green;
+              background-color: lightpink;
           }
           33%{
-              background-color: white;
+              background-color: lightsalmon;
           }
           66%{
-              background-color: blue;
+              background-color: lightseagreen;
           }
           100%{
-              background-color: red;
+              background-color: lightskyblue;
           }
         }
   
