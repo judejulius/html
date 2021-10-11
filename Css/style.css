@@ -180,7 +180,7 @@ img {
   .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 2px;
     background-color: white;
     top: 0;
     bottom: 0;
@@ -211,7 +211,6 @@ img {
     border-radius: 50%;
     z-index: 1;
   }
-  
   /* Place the container to the left */
   .left {
     left: 0;
@@ -259,7 +258,8 @@ img {
   .content {
     padding: 20px 30px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     background: red;
     animation: mymove 5s infinite;
       }
