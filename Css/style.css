@@ -389,7 +389,7 @@ strong {
     }
   }
   .timeline-head{
-    position:fixed ;
+    position:absolute ;
     top: 80px;
     left: 365px;
     font-weight: 100;
