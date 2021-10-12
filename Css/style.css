@@ -66,7 +66,8 @@ a:hover {
     font-family: "Josefin Sans", sans-serif;
     text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
-
+.contact-head:hover{
+  color: lightpink;
 }
 .contact {
   font-size: 50px;
@@ -189,11 +190,11 @@ strong {
 .about-header {
   text-align: center;
   font-size: 70px;
-  padding: 20px;
-  font-weight: 100;
-  color: #1d13aa;
-  font-family: "Josefin Sans", sans-serif;
-  text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-weight: 100;
+    color: #1d13aa;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .about-header:hover {
   color: darkgray;
@@ -216,6 +217,7 @@ strong {
   text-align: center;
   font-size: 80px;
 }
+
 /* timeline */
 
   /* The actual timeline (the vertical ruler) */
