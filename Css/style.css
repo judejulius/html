@@ -393,9 +393,7 @@ strong {
     }
   }
   .timeline-head{
-    position:absolute ;
-    top: 80px;
-    left: 365px;
+    text-align: center;
     font-weight: 100;
     font-size: 70px;
     color: #1d13aa;
