@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 li {
   align-items: baseline;
@@ -187,7 +188,7 @@ strong {
 }
 
 /* about page*/
-.about-header {
+.about-header  {
   text-align: center;
   font-size: 70px;
     padding: 20px;
@@ -291,7 +292,6 @@ strong {
       left: 0;
     }
   }
-  
   /* Place the container to the right */
   .right {
     left: 50%;
